@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="nav-logo" href="#home">Janah</a>
+
+            <input type="checkbox" id="menu-active">
+            <label for="menu-active" class="open-btn">
+                <img src="assets/icons/menu-bar.png" alt="Menu bar icon">
+            </label>
+
+            <div class="links-container">
+                <label for="menu-active" class="close-btn">
+                    <img src="assets/icons/close.png" alt="Close button">
+                </label>
+
+                <a href="#about">About</a>
+                <a href="#resume">Resume</a>
+                <a href="blog.html">Blog</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+
+                <a href="mailto:norjanahmacalatas@gmail.com" target="_blank"><img src="assets/icons/envelope.png" alt="Email icon"></a>
+                <a href="https://github.com/janahgsg" target="_blank"><img src="assets/icons/github.png" alt="Github icon"></a>
+                <a href="https://www.linkedin.com/in/janah-domly-b388a7368/" target="_blank"><img src="assets/icons/linkedin.png" alt="Linkedin icon"></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <img src="assets/images/janah.jpg" alt="Janah image" class="avatar" />
+            <div class="home-text">
+                <p>Hello! I'm</p>
+                <h1>Norjanah Macalatas</h1>
+                <h3>You can call me Janah!</h3>
+            </div>
+        </section>
+
+        <section id="about-skills">
+            <aside id="about">
+                <h1>About Me</h1>
+                <div class="about-container">
+                    <p>I'm a freshman student taking the ICT track in Computer Science/IT, building my skills in coding and problem-solving. I enjoy crafting and being creative, and coding lets me express that creativity in a special way. I've worked on hands-on projects like a class scheduling system, my own portfolio, and a research project about automating student data transfer. These experiences have helped me think better and solve problems in smart ways. I also love exploring new things—especially psychology and DIY projects like handmade gifts and crochet. They help me relax and show my personality while learning something new.</p>
+                </div>
+            </aside>
+
+            <aside id="skills">
+                <h1>Skills</h1>
+                <div class="skills-container">
+                    <div class="skill-row">
+                        <img src="assets/images/html-logo.png" alt="HTML logo">
+                        <div class="skill-content">
+                            <p>HTML</p>
+                            <div class="skill-bar">
+                                <div class="skill-fill html-fill">40%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-row">
+                        <img src="assets/images/css-logo.png" alt="CSS logo">
+                        <div class="skill-content">
+                            <p>CSS</p>
+                            <div class="skill-bar">
+                                <div class="skill-fill css-fill">35%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-row">
+                        <img src="assets/images/java-logo.png" alt="Java logo">
+                        <div class="skill-content">
+                            <p>Java</p>
+                            <div class="skill-bar">
+                                <div class="skill-fill java-fill">15%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-row">
+                        <img src="assets/images/js-logo.png" alt="JavaScript logo">
+                        <div class="skill-content">
+                            <p>JavaScript</p>
+                            <div class="skill-bar">
+                                <div class="skill-fill js-fill">20%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </section>
+
+        <section id="resume">
+            <div class="resume-container">
+                <h1>Resume</h1>
+                <a href="assets/resume/resume.pdf" class="downloadable-link" download="assets/resume/resume-pdf">Download Resume</a>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h1>Projects</h1>
+            <div class="project-container">
+                <div class="project-grid">
+                    <article class="project-image">
+                        <img src="assets/images/template.png" class="website" alt="JavaScript API Project">
+                        <div class="description">
+                            <h3>JavaScript API Project</h3>
+                            <p>This project uses a public API to display dynamic data on a website. It was built to practice working with APIs using HTML, CSS, and JavaScript.</p>
+                            <div class="links">
+                                <a href="#" target="_blank"><img src="assets/icons/github.png" alt="Github icon"></a>
+                                <a href="#" target="_blank"><img src="assets/icons/html-icon.png" alt="HTML icon"></a>
+                            </div>
+                        </div>
+                      </article>
+
+                    <article class="project-image">
+                        <img src="assets/images/template.png" class="website" alt="Ecommerce App">
+                        <div class="description">
+                            <h3>Ecommerce App</h3>
+                            <p>A simple online shopping website that includes product listings and a cart system. It was developed using HTML, CSS, and JavaScript to simulate the basic features of an e-commerce site.</p>
+                            <div class="links">
+                                <a href="#" target="_blank"><img src="assets/icons/github.png" alt="GitHub icon"></a>
+                                <a href="#" target="_blank"><img src="assets/icons/html-icon.png" alt="HTML icon"></a>
+                            </div>
+                        </div>
+                      </article>
+
+                    <article class="project-image">
+                        <img src="assets/images/template.png" class="website" alt="React Application">
+                        <div class="description">
+                            <h3>React Application</h3>
+                            <p>A personal project created using React. It was made to explore and apply the basics of building interactive user interfaces with React.</p>
+                            <div class="links">
+                                <a href="#" target="_blank"><img src="assets/icons/github.png" alt="GitHub icon"></a>
+                                <a href="#" target="_blank"><img src="assets/icons/html-icon.png" alt="HTML icon"></a>
+                            </div>
+                        </div>
+                      </article>
+
+                    <article class="project-image">
+                        <img src="assets/images/template.png" class="website" alt="Simple Calculator">
+                        <div class="description">
+                            <h3>Simple Calculator</h3>
+                            <p>Simple and effective web design made using simple HTML and CSS structure.</p>
+                            <div class="links">
+                                <a href="#" target="_blank"><img src="assets/icons/github.png" alt="GitHub icon"></a>
+                                <a href="#" target="_blank"><img src="assets/icons/html-icon.png" alt="HTML icon"></a>
+                            </div>
+                        </div>
+                      </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1>Contact</h1>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your Name">
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Your Email">
+
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" placeholder="Your Message"></textarea>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Norjanah Macalatas. All rights reserved.</p>
+    </footer>
+</body>
+</html>
